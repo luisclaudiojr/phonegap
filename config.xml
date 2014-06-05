@@ -1,0 +1,29 @@
+<?xml version   ="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "tsi11.sample"
+    versioncode = "1"
+    version     = "1.0.0">
+    
+    <name>APP de Exemplo</name>
+    
+    <content src="index.html"/>
+    <icon src="icon.png" width="256" height="256" />
+    
+    <description>
+        Exemplo do uso dos sensores do Dispositivo Móvel com PhoneGap.
+    </description>
+    
+    <author href="http://www.ifc-camboriu.edu.br/~frozza">
+        Prof. Angelo Augusto Frozza
+    </author>
+        
+    <preference name="phonegap-version" value="2.0.0" />
+    <feature name="http://api.phonegap.com/1.0/camera"/>
+    <feature name="http://api.phonegap.com/1.0/file"/>      
+
+    <!-- for Android -->
+    <preference name="orientation" value="portrait" />
+    <preference name="android-minSdkVersion" value="9" />
+</widget>
+
